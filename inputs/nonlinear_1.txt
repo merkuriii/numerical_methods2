@@ -1,0 +1,7 @@
+f = 3**x - 5*x**2 + 1
+df = 3**x*ln(3) - 10*x
+phi = sqrt((3**x + 1)/5)
+interval = 0.7 0.9
+x0 = 0.8
+scan = 0 6
+eps = 1e-4

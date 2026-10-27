@@ -1,0 +1,10 @@
+a = 3
+f1 = x1 - cos(x2) - a
+f2 = x2 - sin(x1) - a
+phi1 = a + cos(x2)
+phi2 = a + sin(x1)
+J1 = 1 ; sin(x2)
+J2 = -cos(x1) ; 1
+x0 = 2.2 3.8
+scan = 0 6
+eps = 1e-4
